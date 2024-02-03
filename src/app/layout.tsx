@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 
 import { TRPCReactProvider } from "@/trpc/react";
 import SideSocialIcons from "./_components/SideSocialIcons";
+import MainNavBar from "@/sections/MainNavBar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,7 +30,10 @@ export default function RootLayout({
             <div>
               <SideSocialIcons />
             </div>
-            <div>{children}</div>
+            <div className="ml-10 w-full">
+              <MainNavBar />
+              {children}
+            </div>
           </div>
         </TRPCReactProvider>
       </body>
