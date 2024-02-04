@@ -1,7 +1,11 @@
+import ExpertiseSection from "@/sections/ExpertiseSection";
+import HeroSection from "@/sections/HeroSection";
+
 export default async function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
-      <h1 className="text-primary">Home</h1>
+    <main className="space-y-[100px]">
+      <HeroSection />
+      <ExpertiseSection />
     </main>
   );
 }
