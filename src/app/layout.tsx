@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Program with abu",
+  title: "Program With Abu",
   description: "I speak fluent JavaScript",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
