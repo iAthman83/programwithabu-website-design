@@ -35,7 +35,7 @@ export default ExpertiseSection;
 
 const SoftwareEngineer = (props: Props) => {
   return (
-    <Card className="w-[350px] border-b-4 border-r-4 border-b-[#8E44AD] border-r-[#8E44AD] bg-background">
+    <Card className="w-[300px] border-b-4 border-r-4 border-b-[#8E44AD] border-r-[#8E44AD] bg-background xl:w-[350px]">
       <CardHeader className="grid gap-4">
         <div className="flex items-center space-x-4 rounded-md p-4">
           <HiOutlineComputerDesktop size={40} className="text-foreground" />
@@ -66,7 +66,7 @@ const SoftwareEngineer = (props: Props) => {
 
 const FrontEnd = (props: Props) => {
   return (
-    <Card className="w-[350px] border-b-4 border-r-4 border-b-primary border-r-primary bg-background">
+    <Card className="w-[300px] border-b-4 border-r-4 border-b-primary border-r-primary bg-background xl:w-[350px]">
       <CardHeader className="grid gap-4">
         <div className="flex items-center space-x-4 rounded-md p-4">
           <FaReact size={40} className="text-foreground" />
@@ -97,7 +97,7 @@ const FrontEnd = (props: Props) => {
 
 const Mobile = (props: Props) => {
   return (
-    <Card className="w-[350px] border-b-4 border-r-4 border-b-[#2980B9] border-r-[#2980B9] bg-background">
+    <Card className="w-[300px] border-b-4 border-r-4 border-b-[#2980B9] border-r-[#2980B9] bg-background xl:w-[350px]">
       <CardHeader className="grid gap-4">
         <div className="flex items-center space-x-4 rounded-md p-4">
           <HiOutlineDevicePhoneMobile size={40} className="text-foreground" />

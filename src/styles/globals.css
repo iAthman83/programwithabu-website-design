@@ -74,12 +74,12 @@
     @apply bg-background text-foreground;
   }
   .padding-x-axis {
-    @apply px-2 lg:px-40 2xl:px-80;
+    @apply px-2 lg:px-20 xl:px-40 2xl:px-60;
   }
   .show-desktop-only {
-    @apply hidden lg:flex lg:px-40 2xl:px-80;
+    @apply hidden lg:flex lg:px-40 xl:px-80;
   }
   .show-mobile-only {
-    @apply flex px-2 lg:hidden 2xl:hidden;
+    @apply flex px-2 lg:hidden xl:hidden;
   }
 }
