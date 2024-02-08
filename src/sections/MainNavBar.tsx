@@ -53,7 +53,7 @@ const MainNavBar = (props: Props) => {
           <Image
             src="/logo.webp"
             alt="logo"
-            width={200}
+            width={150}
             height={50}
             className="hidden lg:inline"
           />
