@@ -18,7 +18,9 @@ type Props = {};
 
 const ExpertiseSection = (props: Props) => {
   return (
-    <section className="padding-x-axis flex flex-col items-center justify-center space-y-[50px]">
+    <div className="padding-x-axis relative flex h-[60rem] w-full flex-col items-center justify-center space-y-[50px] bg-background bg-dot-white/[0.2] lg:h-[35rem]">
+      {/* Radial gradient for the container to give a faded look */}
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-background [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
         My Expertise
       </h1>
@@ -27,7 +29,7 @@ const ExpertiseSection = (props: Props) => {
         <FrontEnd />
         <Mobile />
       </div>
-    </section>
+    </div>
   );
 };
 
